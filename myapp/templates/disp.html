@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<!--
+<script type="text/javascript">
+window.onload = function(){
+	alert("자바스크립트 세상");
+}
+</script>
+  -->
+<link rel="stylesheet" type="text/css" href="/static/css/test.css">
+<script type="text/javascript" src="/static/js/test.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	//alert('jQuery 세상');
+	$("#myImg").click(function(){
+		abc();
+	});
+});
+</script>
+</head>
+<body>
+성공<br>
+<img src="/static/images/test.jpg" width="300" id="myImg" />
+<br>
+<div style="font-size: 30px">이미지 잘 보임</div>
+</body>
+</html>
